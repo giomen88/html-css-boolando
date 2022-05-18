@@ -136,3 +136,37 @@ img {
     padding-top: 7px;
     cursor: pointer;
 }
+
+img.first:hover {
+    content: url(../img/1b.webp);
+
+}
+
+img.second:hover {
+    content: url(../img/2b.webp);
+
+}
+
+img.third:hover {
+    content: url(../img/3b.webp);
+
+}
+
+img.fourth:hover {
+    content: url(../img/4b.webp);
+
+}
+
+img.fifth:hover {
+    content: url(../img/5b.webp);
+
+}
+
+img.sixth:hover {
+    content: url(../img/6b.webp);
+}
+
+.favourite:hover {
+    content: '';
+    color: rgb(255, 0, 0);
+}
