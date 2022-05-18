@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 nav {
@@ -42,11 +42,18 @@ a {
 
 .container {
     width: 900px;
-    margin: o auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
 
 /* nav */
-
 .nav.logo {
     text-align: center;
     padding-top: 8px;
@@ -61,3 +68,31 @@ a {
 }
 
 /* main */
+.product {
+    width: calc(100% / 3 - 20px);
+    padding-top: 20px;
+}
+
+.product img {
+    width: 290px;
+}
+
+.product-info {
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.final-price {
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.price {
+    display: inline-block;
+    text-decoration: line-through;
+}
